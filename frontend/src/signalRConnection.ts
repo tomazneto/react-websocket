@@ -1,10 +1,12 @@
 import * as signalR from "@microsoft/signalr";
-const URL = process.env.HUB_ADDRESS ?? "https://localhost:50898/hub"; //or whatever your backend port is
+import { Valor } from "./Valor";
+const URL = process.env.HUB_ADDRESS ?? "https://localhost:57902/hub"; //or whatever your backend port is
 
 class Connector {
     private connection: signalR.HubConnection;
-    public events: (onMessageReceived: (message: string) => void) => void;
+    public events: (onMessageReceived: (message: Valor[]) => void) => void;
     static instance: Connector;
+    public dados: Valor[] = [];
 
     constructor() {
         this.connection = new signalR.HubConnectionBuilder()
@@ -18,6 +20,7 @@ class Connector {
         this.events = (onMessageReceived) => {
             this.connection.on("SendMessage", (message) => {
                 onMessageReceived(message);
+                this.dados = message;
                 console.log(message);
             });
         };
