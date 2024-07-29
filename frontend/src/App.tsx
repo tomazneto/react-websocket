@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
 import Connector from './signalRConnection';
+import Home from './Home';
 
 function App() {
   const { newMessage, events } = Connector();
@@ -11,11 +12,13 @@ function App() {
   });
 
   return (
+    <>    
     <div className="App">
       <span>message from signalR: <span style={{ color: "green" }}>{message}</span> </span>
-      <br />
-      <button onClick={() => newMessage((new Date()).toISOString())}>send date </button>
     </div>
+    <br />
+    </>
+
   );
 }
 export default App;
