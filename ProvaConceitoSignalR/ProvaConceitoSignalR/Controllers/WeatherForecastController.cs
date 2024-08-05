@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.SignalR;
-using ProvaConceitoSignalR.Hub;
+using ProvaConceitoSignalR.Kafka;
+using ProvaConceitoSignalR.Model;
 namespace ProvaConceitoSignalR.Controllers
 {
     [ApiController]
@@ -13,12 +13,12 @@ namespace ProvaConceitoSignalR.Controllers
         };
 
         private readonly ILogger<WeatherForecastController> _logger;
-        private readonly IHubContext<ChatHub> _hub;
+        private readonly PubKafka _pub;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger, IHubContext<ChatHub> hub)
+        public WeatherForecastController(ILogger<WeatherForecastController> logger)
         {
             _logger = logger;
-            _hub = hub;
+            _pub = new PubKafka();
         }
 
         [HttpGet(Name = "GetWeatherForecast")]
@@ -33,5 +33,12 @@ namespace ProvaConceitoSignalR.Controllers
             .ToArray();
         }
 
+
+        [HttpPost]
+        public async Task<ActionResult> Inserir(Requisicao request)
+        {
+            await _pub.ExecutePub(request);
+            return Ok();
+        }
     }
 }
