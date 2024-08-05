@@ -34,8 +34,8 @@ namespace ProvaConceitoSignalR.Worker
                 {
                     var cr = consumer.Consume(stoppingToken);
 
-                    Teste? teste = JsonSerializer.Deserialize<Teste>(cr.Value);
-                    _repository.Add(teste);
+                    //Teste? teste = JsonSerializer.Deserialize<Teste>(cr.Value);
+                    //_repository.Add(teste);
 
                     await _hub.Clients.All.SendAsync("SendMessage", _repository);
                     Console.WriteLine($"executou: {DateTime.Now} | retorno: {cr.Value}");

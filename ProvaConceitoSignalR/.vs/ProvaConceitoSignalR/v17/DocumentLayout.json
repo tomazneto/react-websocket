@@ -1,17 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Foton\\Desktop\\PoC\\ProvaConceitoSignalR\\ProvaConceitoSignalR\\",
+  "WorkspaceRootPath": "C:\\Users\\Foton\\Desktop\\PoC\\front-react\\react-websocket\\ProvaConceitoSignalR\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6AB4C88F-266F-480B-860E-152ED8EBD325}|ProvaConceitoSignalR\\ProvaConceitoSignalR.csproj|c:\\users\\foton\\desktop\\poc\\provaconceitosignalr\\provaconceitosignalr\\provaconceitosignalr\\worker\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6AB4C88F-266F-480B-860E-152ED8EBD325}|ProvaConceitoSignalR\\ProvaConceitoSignalR.csproj|c:\\users\\foton\\desktop\\poc\\front-react\\react-websocket\\provaconceitosignalr\\provaconceitosignalr\\worker\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6AB4C88F-266F-480B-860E-152ED8EBD325}|ProvaConceitoSignalR\\ProvaConceitoSignalR.csproj|solutionrelative:provaconceitosignalr\\worker\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E04050F-4C5F-4C4E-A8D5-53EE5E754BD8}|docker-compose.dcproj|c:\\users\\foton\\desktop\\poc\\provaconceitosignalr\\provaconceitosignalr\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{6AB4C88F-266F-480B-860E-152ED8EBD325}|ProvaConceitoSignalR\\ProvaConceitoSignalR.csproj|c:\\users\\foton\\desktop\\poc\\front-react\\react-websocket\\provaconceitosignalr\\provaconceitosignalr\\hub\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AB4C88F-266F-480B-860E-152ED8EBD325}|ProvaConceitoSignalR\\ProvaConceitoSignalR.csproj|solutionrelative:provaconceitosignalr\\hub\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E04050F-4C5F-4C4E-A8D5-53EE5E754BD8}|docker-compose.dcproj|c:\\users\\foton\\desktop\\poc\\front-react\\react-websocket\\provaconceitosignalr\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{3E04050F-4C5F-4C4E-A8D5-53EE5E754BD8}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6AB4C88F-266F-480B-860E-152ED8EBD325}|ProvaConceitoSignalR\\ProvaConceitoSignalR.csproj|c:\\users\\foton\\desktop\\poc\\provaconceitosignalr\\provaconceitosignalr\\provaconceitosignalr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6AB4C88F-266F-480B-860E-152ED8EBD325}|ProvaConceitoSignalR\\ProvaConceitoSignalR.csproj|c:\\users\\foton\\desktop\\poc\\front-react\\react-websocket\\provaconceitosignalr\\provaconceitosignalr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6AB4C88F-266F-480B-860E-152ED8EBD325}|ProvaConceitoSignalR\\ProvaConceitoSignalR.csproj|solutionrelative:provaconceitosignalr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,46 +26,57 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "C:\\Users\\Foton\\Desktop\\PoC\\front-react\\react-websocket\\ProvaConceitoSignalR\\ProvaConceitoSignalR\\Hub\\ChatHub.cs",
+              "RelativeDocumentMoniker": "ProvaConceitoSignalR\\Hub\\ChatHub.cs",
+              "ToolTip": "C:\\Users\\Foton\\Desktop\\PoC\\front-react\\react-websocket\\ProvaConceitoSignalR\\ProvaConceitoSignalR\\Hub\\ChatHub.cs",
+              "RelativeToolTip": "ProvaConceitoSignalR\\Hub\\ChatHub.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T17:49:11.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "docker-compose.yml",
-              "DocumentMoniker": "C:\\Users\\Foton\\Desktop\\PoC\\ProvaConceitoSignalR\\ProvaConceitoSignalR\\docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\Foton\\Desktop\\PoC\\front-react\\react-websocket\\ProvaConceitoSignalR\\docker-compose.yml",
               "RelativeDocumentMoniker": "docker-compose.yml",
-              "ToolTip": "C:\\Users\\Foton\\Desktop\\PoC\\ProvaConceitoSignalR\\ProvaConceitoSignalR\\docker-compose.yml",
+              "ToolTip": "C:\\Users\\Foton\\Desktop\\PoC\\front-react\\react-websocket\\ProvaConceitoSignalR\\docker-compose.yml",
               "RelativeToolTip": "docker-compose.yml",
               "ViewState": "AQIAADMAAAAAAAAAAAAAADsAAABZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2024-07-29T14:52:24.456Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-29T14:52:24.456Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Worker.cs",
-              "DocumentMoniker": "C:\\Users\\Foton\\Desktop\\PoC\\ProvaConceitoSignalR\\ProvaConceitoSignalR\\ProvaConceitoSignalR\\Worker\\Worker.cs",
+              "DocumentMoniker": "C:\\Users\\Foton\\Desktop\\PoC\\front-react\\react-websocket\\ProvaConceitoSignalR\\ProvaConceitoSignalR\\Worker\\Worker.cs",
               "RelativeDocumentMoniker": "ProvaConceitoSignalR\\Worker\\Worker.cs",
-              "ToolTip": "C:\\Users\\Foton\\Desktop\\PoC\\ProvaConceitoSignalR\\ProvaConceitoSignalR\\ProvaConceitoSignalR\\Worker\\Worker.cs",
+              "ToolTip": "C:\\Users\\Foton\\Desktop\\PoC\\front-react\\react-websocket\\ProvaConceitoSignalR\\ProvaConceitoSignalR\\Worker\\Worker.cs",
               "RelativeToolTip": "ProvaConceitoSignalR\\Worker\\Worker.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAArAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAvwBwAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-26T18:54:01.166Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Foton\\Desktop\\PoC\\ProvaConceitoSignalR\\ProvaConceitoSignalR\\ProvaConceitoSignalR\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Foton\\Desktop\\PoC\\front-react\\react-websocket\\ProvaConceitoSignalR\\ProvaConceitoSignalR\\Program.cs",
               "RelativeDocumentMoniker": "ProvaConceitoSignalR\\Program.cs",
-              "ToolTip": "C:\\Users\\Foton\\Desktop\\PoC\\ProvaConceitoSignalR\\ProvaConceitoSignalR\\ProvaConceitoSignalR\\Program.cs",
+              "ToolTip": "C:\\Users\\Foton\\Desktop\\PoC\\front-react\\react-websocket\\ProvaConceitoSignalR\\ProvaConceitoSignalR\\Program.cs",
               "RelativeToolTip": "ProvaConceitoSignalR\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T18:54:50.079Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-24T18:54:50.079Z"
             }
           ]
         }
