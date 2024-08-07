@@ -13,6 +13,8 @@
     <PackageReference Include="Confluent.Kafka" Version="2.5.0" />
     <PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.1.0" />
     <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="8.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.7" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.20.1" />
     <PackageReference Include="SignalRSwaggerGen" Version="4.7.0" />
     <PackageReference Include="SignalRSwaggerGen.Core" Version="1.2.0" />

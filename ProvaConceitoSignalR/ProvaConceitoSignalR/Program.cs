@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.SignalR;
 using Microsoft.OpenApi.Models;
 using ProvaConceitoSignalR.Hub;
+using ProvaConceitoSignalR.Infra;
 using ProvaConceitoSignalR.Worker;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,6 +12,8 @@ builder.Services.AddCors();
 builder.Services.AddControllers();
 
 builder.Services.AddEndpointsApiExplorer();
+
+builder.Services.AddAllServices(builder.Configuration);
 
 builder.Services.AddHostedService<Worker>();
 
